@@ -1,0 +1,79 @@
+h2,
+h4,
+h3,
+nav,li{
+  color: blue;
+}
+#off {
+  color: rgb(0, 0, 0);
+}
+#nsec1,
+#nsec2,
+nav{
+  color: rgb(11, 11, 11);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h2,
+h3,
+h4,
+li{
+  text-transform: capitalize;
+}
+div {
+  padding: 10px;
+  border-style: solid;
+  border-color: greenyellow;
+  border-width: 5px;
+  border-radius: 30px;
+  background-color: rgba(230, 6, 251, 0.709);
+}
+.list-bulletless{
+  list-style: none;
+}
+.clr{
+  display: inline;
+  margin: 2rem;
+  background-color: rgb(0, 255, 55);
+  padding: 8px;
+  border-radius: 20px;
+  font-weight: 600;
+} 
+.list-bulletless ,#ill,.ols{
+  text-align: center;
+  margin: 10px;
+ }
+li{
+  background-color: chartreuse;
+  border: 5rem;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 07px;
+}
+nav{
+  background-color:blue;
+  padding: 30px;
+  color: rgb(231, 228, 228);
+  border-radius: 20px;
+}
+footer,header{
+  background-color: rgb(87, 84, 84);
+  color: rgb(231, 228, 228);
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+.ols{
+  font-weight: 1000;
+   background-color: chartreuse;
+}
+nav:hover{
+  background-color: rgb(230, 17, 17);
+  color: rgb(9, 237, 17);
+}
+
